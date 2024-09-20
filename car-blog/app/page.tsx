@@ -94,7 +94,7 @@ export default function Home() {
       {/* Definitions of major four segments */}
       <h1 className="text-3xl font-bold text-start mt-9 
       webkit-font-smoothing: antialiased 
-      font-style: italic text-gray-400 hover:text-gray-600">
+      font-style: italic text-gray-400 hover:text-blue-400">
         What are Performance Cars?
       </h1>
       <h2 className="font-medium mt-4 font-mono text-sm tracking-tight text-gray-700 ">
@@ -105,7 +105,7 @@ export default function Home() {
       {/* Economy Car Definition */}
       <h1 className="text-3xl font-bold text-start mt-9 
       webkit-font-smoothing: antialiased 
-      font-style: italic text-gray-400 hover:text-gray-600">
+      font-style: italic text-gray-400 hover:text-blue-400">
         What are Economy Cars?
       </h1>
       <h2 className="font-medium mt-4 font-mono text-sm tracking-tight text-gray-700 ">
@@ -115,7 +115,7 @@ export default function Home() {
       {/* Electric Car Definition */}
       <h1 className="text-3xl font-bold text-start mt-9 
       webkit-font-smoothing: antialiased 
-      font-style: italic text-gray-400 hover:text-gray-600">
+      font-style: italic text-gray-400 hover:text-blue-400">
         What are Electric Cars?
       </h1>
       <h2 className="font-medium mt-4 font-mono text-sm tracking-tight text-gray-700 ">
@@ -128,7 +128,7 @@ export default function Home() {
       {/* Luxury Car Definition */}
       <h1 className="text-3xl font-bold text-start mt-9 
       webkit-font-smoothing: antialiased 
-      font-style: italic text-gray-400 hover:text-gray-600">
+      font-style: italic text-gray-400 hover:text-blue-400">
         What are Luxury Cars?
       </h1>
       <h2 className="font-medium mt-4 font-mono text-sm tracking-tight text-gray-700 ">
@@ -154,7 +154,7 @@ export default function Home() {
           <button className="w-40 h-20 text-white bg-gray-400 rounded-full hover:bg-blue-400
           focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75
           transition ease-in-out delay-150 hover:scale-90">
-            Department of Energy
+            Dept. of Energy
           </button>
         </a>
 
