@@ -12,8 +12,12 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      blur: {
+        'custom-sm': '2px', // Add a small custom blur
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
