@@ -61,30 +61,34 @@ export default function Home() {
         </Link>
 
         {/*Electric Car Logo and Effects*/}
-        <div className="text-center mx-4 relative group">
-          <Image src={electriclogo} alt="Electric Car Segment" width={300} height={300} 
-          className="mt-9 h-64 scale-75 blur-custom-sm group-hover:blur-none 
-          transition ease-in-out delay-150 group-hover:scale-90"/>
-          <div
-          className="absolute inset-0 flex items-center justify-center text-white 
-          font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            Click to Explore Segment 
+        <Link href="/evcar" passHref>
+          <div className="text-center mx-4 relative group">
+            <Image src={electriclogo} alt="Electric Car Segment" width={300} height={300} 
+            className="mt-9 h-64 scale-75 blur-custom-sm group-hover:blur-none 
+            transition ease-in-out delay-150 group-hover:scale-90"/>
+            <div
+            className="absolute inset-0 flex items-center justify-center text-white 
+            font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Click to Explore Segment 
+            </div>
+            <p className="font-mono text-blue-400 tracking-tight">Electric Cars</p>
           </div>
-          <p className="font-mono text-blue-400 tracking-tight">Electric Cars</p>
-        </div>
+        </Link>
 
         {/* Luxury Car Logo and Effects */}
-        <div className="text-center mx-4 relative group">
-          <Image src={luxurycarlogo} alt="Electric Car Segment" width={300} height={300}
-          className="mt-9 h-64 scale-75 blur-custom-sm group-hover:blur-none
-          transition ease-in-out delay-150 group-hover:scale-90"/>
-          <p className="font-mono text-blue-400 tracking-tight">Luxury Cars</p>
-          <div
-          className="absolute inset-0 flex items-center justify-center text-white 
-          font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            Click to Explore Segment 
+        <Link href="/luxcar" passHref>
+          <div className="text-center mx-4 relative group">
+            <Image src={luxurycarlogo} alt="Electric Car Segment" width={300} height={300}
+            className="mt-9 h-64 scale-75 blur-custom-sm group-hover:blur-none
+            transition ease-in-out delay-150 group-hover:scale-90"/>
+            <p className="font-mono text-blue-400 tracking-tight">Luxury Cars</p>
+            <div
+            className="absolute inset-0 flex items-center justify-center text-white 
+            font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              Click to Explore Segment 
+            </div>
           </div>
-        </div>
+        </Link>
       </div>
       
       {/* This is will be where you can scroll down to view the definitions of the segments */}
