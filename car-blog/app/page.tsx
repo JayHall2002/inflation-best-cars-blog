@@ -138,10 +138,10 @@ export default function Home() {
       </h2>
 
       {/* Citing Sources for definitions */}
-      <h1 className="text-center text-3xl font-semibold mt-9 ">
+      <h1 className="text-center text-3xl font-semibold mt-9 text-blue-400 ">
         Sources
       </h1>
-      <div className="flex flex-row justify-center space-x-9">
+      <div className="flex flex-row justify-center space-x-9 translate-y-8">
         <a href="https://www.mileone.com/blog/2021/august/20/what-qualifies-as-a-luxury-vehicle.htm" target="_blank">
           <button className="w-40 h-20 text-white bg-gray-400 rounded-full hover:bg-blue-400
           focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75
