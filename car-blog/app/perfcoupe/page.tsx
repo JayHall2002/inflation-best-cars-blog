@@ -1,4 +1,4 @@
-{/* When Performance Sedans are selected it will take you here */}
+{/* When Performance coupes are selected it will take you here */}
 
 {/* Required Imports */}
 import Navbar from "../components/Navbar";
