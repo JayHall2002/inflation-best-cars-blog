@@ -279,13 +279,13 @@ export default function Perfsedans() {
             </div>
             {/* Section Title */}
             <div className="mt-12 text-3xl font-mono tracking-tight text-blue-400 text-center translate-y-9">
-                <h2>Best Performance Coupes Under $80k</h2>
+                <h2>Best Performance Sedans Under $80k</h2>
             </div>
-            {/* 60k Videos Side by Side */}
+            {/* 80k Videos Side by Side */}
             <div className="flex justify-between space-x-8 p-20 m-14 items-start">
-                {/* C8 Corvette */}
+                {/* G80 M3 */}
                 <div className="relative group w-1/3 flex flex-col" style={{ height: '500px' }}>
-                    <a href="https://www.tiktok.com/@aerrowss/video/7098064643175763243?q=c8%20corvette%20cinematic&t=1727114299296" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.tiktok.com/@g80.dj/video/7297297288702119214?q=g80%20m3&t=1727121740169" target="_blank" rel="noopener noreferrer">
                         <div className="relative h-full">
                             <video
                                 className="w-full h-full rounded-lg object-cover group-hover:blur-lg"
@@ -293,24 +293,24 @@ export default function Perfsedans() {
                                 loop
                                 muted
                             >
-                                <source src="/videos/c8vette.mp4" type="video/mp4" />
+                                <source src="/videos/g80m3.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </a>
                     <div className="absolute inset-0 flex items-center justify-center z-20 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <ul className="mt-2 bg-black bg-opacity-60 p-4 rounded-lg">
-                            <li className="text-center">C8 Corvette</li>
-                            <li className="text-center">Engine: 6.2L V8</li>
-                            <li className="text-center">Power: 490 HP</li>
-                            <li className="text-center">Torque: 465 lb-ft</li>
-                            <li className="text-center">0 - 60 mph: 2.9 sec</li>
-                            <li className="text-center">Top Speed: 194 mph</li>
+                            <li className="text-center">BMW M3 (G80)</li>
+                            <li className="text-center">Engine: 3.0L TT I-6</li>
+                            <li className="text-center">Power: 503 HP</li>
+                            <li className="text-center">Torque: 479 lb-ft</li>
+                            <li className="text-center">0 - 60 mph: 3.4 sec</li>
+                            <li className="text-center">Top Speed: 180 mph</li>
                             <li className="text-center">Price: $70,000</li>
                         </ul>
                     </div>
-                    {/* Button for the C8 */}
+                    {/* Button for the G80 */}
                     <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20">
-                        <a href="https://www.tiktok.com/@aerrowss/video/7098064643175763243?q=c8%20corvette%20cinematic&t=1727114299296" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.tiktok.com/@g80.dj/video/7297297288702119214?q=g80%20m3&t=1727121740169" target="_blank" rel="noopener noreferrer">
                             <button
                                 className="bg-blue-400 text-white mt-7 font-bold rounded-lg py-3 px-6 shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-blue-600"
                             >
@@ -320,9 +320,9 @@ export default function Perfsedans() {
                     </div>
                 </div>
 
-                {/* G82 BMW M4 */}
+                {/* CT5-V Blackwing */}
                 <div className="relative group w-1/3 flex flex-col" style={{ height: '500px' }}>
-                    <a href="https://www.tiktok.com/@goldenationz/video/7311345225635499296?q=g82%20m4%20rocars&t=1727114816443" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.tiktok.com/@tompeacockcadillac/video/7336674450382933294?q=ct5v%20blackwing%20cinematic&t=1727122082950" target="_blank" rel="noopener noreferrer">
                         <div className="relative h-full">
                             <video
                                 className="w-full h-full rounded-lg object-cover group-hover:blur-lg"
@@ -330,61 +330,61 @@ export default function Perfsedans() {
                                 loop
                                 muted
                             >
-                                <source src="/videos/g82m4.mp4" type="video/mp4" />
+                                <source src="/videos/ct5v.mp4" type="video/mp4" />
                             </video>
                         </div>
                     </a>
                     <div className="absolute inset-0 flex items-center justify-center z-20 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <ul className="mt-2 bg-black bg-opacity-60 p-4 rounded-lg">
-                            <li className="text-center">BMW M4 (G82)</li>
-                            <li className="text-center">Engine: 3.0L TT-I6 (S58)</li>
-                            <li className="text-center">Power: 473 HP</li>
-                            <li className="text-center">Torque: 406 lb-ft</li>
-                            <li className="text-center">0 - 60 mph: 3.8 sec</li>
-                            <li className="text-center">Top Speed: 180 mph</li>
+                            <li className="text-center">Cadillac CT5-V Blackwing (G82)</li>
+                            <li className="text-center">Engine: 6.2L SuperCharged V8</li>
+                            <li className="text-center">Power: 668 HP</li>
+                            <li className="text-center">Torque: 659 lb-ft</li>
+                            <li className="text-center">0 - 60 mph: 3.4 sec</li>
+                            <li className="text-center">Top Speed: 200 mph</li>
+                            <li className="text-center">Price: $75,000</li>
+                        </ul>
+                    </div>
+                    {/* Button for the CT5-V Blackwing */}
+                    <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20">
+                        <a href="https://www.tiktok.com/@tompeacockcadillac/video/7336674450382933294?q=ct5v%20blackwing%20cinematic&t=1727122082950" target="_blank" rel="noopener noreferrer">
+                            <button
+                                className="bg-blue-400 text-white mt-7 font-bold rounded-lg py-3 px-6 shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-blue-600"
+                            >
+                                Link to Video
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                {/* Hellcat Charger */}
+                <div className="relative group w-1/3 flex flex-col" style={{ height: '500px' }}>
+                    <a href="https://www.tiktok.com/@1_uriel1/video/7280034686687071531?q=hellcat%20charger%20&t=1727122407696" target="_blank" rel="noopener noreferrer">
+                        <div className="relative h-full">
+                            <video
+                                className="w-full h-full rounded-lg object-cover group-hover:blur-lg"
+                                autoPlay
+                                loop
+                                muted
+                            >
+                                <source src="/videos/hellcat.mp4" type="video/mp4" />
+                            </video>
+                        </div>
+                    </a>
+                    <div className="absolute inset-0 flex items-center justify-center z-20 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <ul className="mt-2 bg-black bg-opacity-60 p-4 rounded-lg">
+                            <li className="text-center">Dodge Charger Hellcat Widebody</li>
+                            <li className="text-center">Engine: 6.2L SuperCharged V8</li>
+                            <li className="text-center">Power: 717 HP</li>
+                            <li className="text-center">Torque: 650 lb-ft</li>
+                            <li className="text-center">0 - 60 mph: 3.5 sec</li>
+                            <li className="text-center">Top Speed: 196 mph</li>
                             <li className="text-center">Price: $77,000</li>
                         </ul>
                     </div>
-                    {/* Button for the G82 M4 */}
+                    {/* Button for the Hellcat */}
                     <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20">
-                        <a href="https://www.tiktok.com/@goldenationz/video/7311345225635499296?q=g82%20m4%20rocars&t=1727114816443" target="_blank" rel="noopener noreferrer">
-                            <button
-                                className="bg-blue-400 text-white mt-7 font-bold rounded-lg py-3 px-6 shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-blue-600"
-                            >
-                                Link to Video
-                            </button>
-                        </a>
-                    </div>
-                </div>
-
-                {/* Ford Mustang GT500 */}
-                <div className="relative group w-1/3 flex flex-col" style={{ height: '500px' }}>
-                    <a href="https://www.tiktok.com/@stang.mentality/video/7283666291272027435?q=gt500%20&t=1727115629724" target="_blank" rel="noopener noreferrer">
-                        <div className="relative h-full">
-                            <video
-                                className="w-full h-full rounded-lg object-cover group-hover:blur-lg"
-                                autoPlay
-                                loop
-                                muted
-                            >
-                                <source src="/videos/gt500.mp4" type="video/mp4" />
-                            </video>
-                        </div>
-                    </a>
-                    <div className="absolute inset-0 flex items-center justify-center z-20 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <ul className="mt-2 bg-black bg-opacity-60 p-4 rounded-lg">
-                            <li className="text-center">Mustang GT500</li>
-                            <li className="text-center">Engine: 5.2L SuperCharged V8</li>
-                            <li className="text-center">Power: 760 HP</li>
-                            <li className="text-center">Torque: 628 lb-ft</li>
-                            <li className="text-center">0 - 60 mph: 3.3 sec</li>
-                            <li className="text-center">Top Speed: 180 mph</li>
-                            <li className="text-center">Price: $78,000</li>
-                        </ul>
-                    </div>
-                    {/* Button for the GT500 */}
-                    <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 z-20">
-                        <a href="https://www.tiktok.com/@stang.mentality/video/7283666291272027435?q=gt500%20&t=1727115629724" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.tiktok.com/@1_uriel1/video/7280034686687071531?q=hellcat%20charger%20&t=1727122407696" target="_blank" rel="noopener noreferrer">
                             <button
                                 className="bg-blue-400 text-white mt-7 font-bold rounded-lg py-3 px-6 shadow-lg transition-transform duration-300 ease-in-out hover:scale-110 hover:bg-blue-600"
                             >
